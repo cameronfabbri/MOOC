@@ -19,7 +19,11 @@ Currently working functions:
 - User profile
 - Class pages
 - Posting and commenting actions on class pages
-- 
+
+Server Requirements:
+Currently uses Apache2 and MariaDB with PHP, HTML, and CSS.  No PHP framework is used.  Installation for the tables is controled by the PHP files.  When attempting to modify a table, it first checks if the table exists, if it does not, it creates it.  The only thing needed is PHP, Apache, and a database in MySQL/MariaDB.
+
+
 
 
 
